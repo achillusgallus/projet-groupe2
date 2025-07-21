@@ -1,55 +1,4 @@
 <<<<<<< HEAD
-
-body{
-    margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-/* En tete avec le titre et le button*/
-
-header{
-  display: flex;
-  gap: 850px;
-}
-
-/*Titre principale*/
-
-h1{
-  margin: 100px;
-}
-
-/* Mon button tout voir */
-
-button{
-  width: 10%;
-  margin: 100px;
-  border-radius: 15px;
-}
-
-/* button au survol*/
-
-button:hover{
-  background-color: black;
-  color: white;
-}
-
-/*Grille d'images avec 4 colonnes*/
-
-.images{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  padding: 300px;
-  margin-top: -300px;
-  gap: 25px;
-}
-
-/* text sur chaque images*/
-
-p{
-   margin-top:-65px;
-   text-align: center;
-   color: white;
-   font-size: 25px;
-}
 =======
 *{
     margin: 0%;
@@ -112,3 +61,54 @@ p{
     color: white;
 }
 >>>>>>> a6bb341d674ed821394a9198e0ce8036befa373e
+
+body{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* En tete avec le titre et le button*/
+
+header{
+  display: flex;
+  gap: 850px;
+}
+
+/*Titre principale*/
+
+h1{
+  margin: 100px;
+}
+
+/* Mon button tout voir */
+
+button{
+  width: 10%;
+  margin: 100px;
+  border-radius: 15px;
+}
+
+/* button au survol*/
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+/*Grille d'images avec 4 colonnes*/
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 300px;
+  margin-top: -300px;
+  gap: 25px;
+}
+
+/* text sur chaque images*/
+
+p{
+   margin-top:-65px;
+   text-align: center;
+   color: white;
+   font-size: 25px;
+}
