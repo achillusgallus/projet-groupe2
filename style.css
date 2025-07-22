@@ -68,12 +68,12 @@
     gap: 830px;
 }
 
-h1{
+.title h1{
     margin: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', ;
 }
 
-button{
+.title button{
     
     width: 10%;
     margin: 100px;
@@ -82,7 +82,7 @@ button{
 }
 /*Style du button au survol*/
 
-button:hover{
+.title button:hover{
 
     background-color: black;
     color: white;
